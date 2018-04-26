@@ -1,0 +1,15 @@
+.options{
+	width: 95%;
+	margin: 0 auto;
+}
+.col-md-12.mb-3.button{
+	padding: 0;
+	width: 100%;
+}
+button{
+	width: 100%;
+	margin-top: 20px;
+}
+.text{
+	padding-top: 30px;
+}

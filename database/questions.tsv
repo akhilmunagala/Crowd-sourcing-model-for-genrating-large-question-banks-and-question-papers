@@ -1,0 +1,290 @@
+S.No	Question	Marks	Keyword	Difficulty
+1	Write in brief about mv command.	2	Command 	0
+2	Write a short note on find command.	2	command 	1
+3	Discuss in brief about ls command.	2	Command 	2
+4	What is the purpose of finger command.	2	Command 	1
+5	Write short nodes on sed.	2	SED 	1
+6	How to insert lines into a sed script?	3	SED 	2
+7	Write about awk command.	2	AWK 	1
+8	List the types of shell.	3	Shell 	2
+9	Write about shell variables.	3	Shell 	1
+10	Discuss about functions in shell.	2	Shell 	0
+11	How can you repeat a command 10 times using only a for loop?	2	Program 	1
+12	Write a shell script which receives two filenames as arguments. It should check whether the two files contents are same or not. If they are same then second file should be deleted. Use 'cmp' command to compare lines.	3	Program 	2
+13	Compare the features of stream-editor with line-editor.	3	Shell 	1
+14	Write a sed script to print all lines of a file that is passed as command line argument by changing the string Madras with Chennai.	2	Program 	2
+15	Write an awk program to print the fields 1 and 4 of a file that is passed as a command line argument. This file contains lines of information that is separated by a "," as delimiter. The awk program must print at the end the sum of all 4th field data.	2	Program 	0
+16	Write a shell script to find the factorial of a number.	3	Program 	1
+17	Write a shell program to find whether a given number is prime or not using command line arguments.	3	Program 	2
+18	Devise a shell that lists all files in the home directory without using is command.	2	Program 	1
+19	Explain the following commands with syntax, (a)ln (b)mv (c)rm (d)ulimit.	5	Command 	2
+20	Explain the following commands with syntax, (a)find (b)unlink.	5	Command 	1
+21	Explain the following commands with syntax, (a)mkdir (b)mount (c)cp.	5	Command 	0
+22	Explain the following commands with syntax, (a)wc (b)umask.	5	Command 	1
+23	Describe file handling utilities in detail.	5	Files 	2
+24	Write in brief about data command.	3	Command 	1
+25	Explain about umount command.	3	Command 	0
+26	Explain about file security in Unix.	5	Files 	1
+27	What are file permissions? What command is used to view the permissions on a file?	5	Files 	2
+28	How to change file permissions in Linux? Explain with relevant example.	5	Files 	1
+29	Differentiate relative permissions and absolute permissions with suitable examples.	3	Files 	0
+30	Explain the ps command with syntax.	3	Command 	1
+31	Explain the w command with syntax.	3	Command 	2
+32	Write a short note on du and df utilities.	5	Utilities 	0
+33	Write about disk utilities. Give syntax and examples.	5	Disks 	1
+34	Write short notes on process utilities and disk utilities.	5	Utilities 	2
+35	Explain various file handling and disk processing utilities with examples.	5	Utilities 	1
+36	Explain networking commands with an example.	5	Command 	2
+37	Explain the following commands with syntax, (a)ftp (b)arp (c)rlogin.	5	Command 	1
+38	What information is presented when the following commands are entered? (a)nl x.c (b)tee x.sh (c)tee x.dat	5	Command 	2
+39	Discuss the significance of filters and identify some filter commands of your choice. Explain them briefly.	5	Command 	2
+40	Explain the following commands with syntax, (a)cat (b)tail (c)head (d)uniq.	5	Command 	1
+41	Explain the following commands with syntax, (a)comm (b)cmp (c)diff (d)tr.	5	Command 	2
+42	Explain the following commands with syntax, (a)cut (b)sort (c)paste.	5	Command 	1
+43	Explain the "more" command with syntax.	5	Command 	0
+44	Write in detail about the following, (a)Text processing utilities (b)Backup utilities.	5	Utilities 	0
+45	Give an overview about sed with examples.	5	SED 	2
+46	Explain the operation of sed utility with an example.	5	SED 	1
+47	Explain the following, (a)sed script (b)sed addresses.	5	SED 	2
+48	Explain in detail on how debugging can be done in running shell scripts.	3	Shell 	0
+49	Explain the following sed commands, (a)insert and append (b)delete (c)change (d)line number (e)substitute.	5	Command 	1
+50	Explain the following sed commands, (a)transform (b)read and write file (c)branch (d)hold space (e)quit.	5	Command 	2
+51	Explain the input/output commands available with sed utility.	5	SED 	2
+52	Explain the flags supported by the substitute command of sed utility.	5	Command 	0
+53	Write a sed command that copies a file into standard output, removing all blank lines(lines with no characters on them).	5	Program 	2
+54	Using sed, how do you convert files with toggle characters like +this+, to look like [i]this[/i]?	5	Program 	1
+55	Using sed, how do you perform a case-insensitive search?	5	Program 	0
+56	HOw do you locate lines beginning and ending with a dot using sed?	3	SED 	2
+57	What is the purpose of awk command? Explain the various options available with the awk commands using an example.	5	AWK 	0
+58	Explain the features of awk.	5	AWK 	1
+59	Discuss the importance of fields and records in awk.	3	AWK 	0
+60	Discuss briefly about the buffers in awk.	2	AWK 	1
+61	Name the different variables available in awk. Explain them.	5	AWK 	2
+62	Write a detailed note on awk script.	3	AWK 	2
+63	Give brief description about the execution of awk.	5	AWK 	1
+64	Explain in detail about the different patterns available in awk.	5	AWK 	0
+65	What are the different types of operators used in awk shell script? Explain.	5	AWK 	2
+66	Explain the pattern/action syntax.	5	AWK 	1
+67	What is an action in awk? Write about expression and output statements.	5	AWK 	0
+68	Explain the following decision making procedures using awk shell scripts with examples, (i)if then else (b)nested if (c)case statements.	5	Program 	2
+69	Explain the following in terms of awk shell script, (a)if without else (b)else without if (c)wildcard characters.	5	Program 	1
+70	Mention different types of loop statements in awk shell script.	5	Program 	0
+71	Explain control actions in awk with examples.	5	AWK 	1
+72	Explain in detail about associative arrays in awk.	5	AWK 	2
+73	Explain string functions with suitable examples.	5	AWK 	1
+74	Explain the mathematical functions with examples.	5	AWK 	0
+75	Define user-defined function. Explain the procedure to create user-defined functions in awk.	5	AWK 	2
+76	What are the methods to use system commands in awk? List the applications of sed.	5	AWK 	0
+77	What is a shell? What are the responsibilities of a shell?	5	Shell 	1
+78	Discuss about input redirection and output redirection in shell scripts.	5	Shell 	2
+79	Write down the characteristics and responsibilities of shell.	5	Shell 	1
+80	What are the different types of shell available in Unix?	3	Shell 	2
+81	Write in detail on the here documents feature provided in bash with examples.	5	Shell 	1
+82	What is a shell script? Explain how a script is used as a problem solving approach.	5	Shell 	2
+83	What are the different types of arithmetic operators used in shell programming?	5	Shell 	0
+84	Explain how the shell treat a command line passed to it.	5	Shell 	1
+85	Write about shell metacharacters.	5	Shell 	2
+86	What is a metacharacter? List and explain about any 7 metacharacters available in Unix.	5	Shell 	0
+87	Write short notes on shell metacharacters and file name substitution.	5	Shell 	1
+88	Explain about the shell variables.	5	Shell 	2
+89	Write in detail on the file name expansion features provided in bash with examples.	5	Shell 	2
+90	Write in detail on the command expansion feature provided in bash with examples.	5	Shell 	1
+91	What is command substitution? Give some examples.	5	Shell 	0
+92	Write about expr command with some examples.	5	Command 	2
+93	Explain the following, (a)who|sort (b)ls|wc-l (c)who|wc-l.	5	Command 	1
+94	Describe any 4 built-in variables in shell and demonstrate their use giving an example for each.	5	Shell 	2
+95	Explain the working environment or built-in variables of shell.	5	Shell 	1
+96	What is quoting? Differentiate three quote tokens, a backlash, a pair of double quotes and a pair of single quotes.	5	Shell 	2
+97	Explain the significance of single quote and double quotes.	5	Shell 	1
+98	Explain test statement. What is the difference between test and if statements?	5	Shell 	2
+99	Write in detail on the features of test command.	5	Shell 	1
+100	Explain various conditional structures supported by shell with programming examples.	5	Shell 	2
+101	Explain about the control structures used in shell programming with suitable examples.	5	Shell 	1
+102	Write briefly on case control structure in bash with examples. Write briefly on "||" operator in bash.	5	Shell 	1
+103	Explain the following shell commands with an example, (a)break (b)continue.	5	Shell 	0
+104	Does the Bourne shell support arithmetic operations? What command is used for this purpose? Explain.	5	Shell 	1
+105	Write a shell script to accept a string from the terminal and use 'case' to echo a suitable message if the string does not have at least 10 characters using, (a)case (b)expr.	5	Program 	1
+106	Write a shell script to display GUD MRNG, GUD AFTERNOON, GUD NIGHT based on system time whenever user logs on.	5	Program 	0
+107	Write a shell script to implement background process that will continually print current time in upper right corner of the screen, while user can do his/her normal job at prompt.	5	Program 	1
+108	Explain in detail about interrupt processing in Bourne shell.	5	Shell 	2
+109	Explain interrupt processing and functions in shells.	5	Shell 	1
+110	Write a shell script to print details of the user login information.	5	Program 	2
+111	Explain the process of debugging shell scripts.	5	Shell 	0
+112	What is a regular file?	2	Files 	1
+113	Write a note on root directory.	2	Directories 	1
+114	What is an open() system call?	3	System Call 	2
+115	What is the function of lseek()?	3	System Call 	0
+116	What is the role of fstat()?	2	System Call 	1
+117	What is mandatory locking?	2	Files 	0
+118	What is the role of chmod()?	3	System Call 	1
+119	What is the function of chown()?	3	System Call 	0
+120	Write a note on link() system call.	2	System Call 	1
+121	Write a note on mkdir() system call.	2	System Call 	2
+122	What are the drawbacks of using a symbolic link instead of hard link?	2	Files 	0
+123	What is the purpose of dot and dot dot directories in the file system?	2	Directories 	1
+124	Discuss about file concept and structure in detail.	5	Files 	0
+125	List and explain about the various types of files in Unix.	5	Files 	1
+126	Explain in detail about the Directories.	5	Directories 	2
+127	What do you mean by metadata? Explain in detail about inodes.	5	Files 	2
+128	Discuss about data structures that support the Unix files in detail.	5	Files 	1
+129	Write a C program to print all the filenames with inode numbers recursively in a directory whose name is given with command line argument using directory system calls.	5	File Program 	2
+130	Write a C program to implement "ls-li" command using directory API and other system calls.	5	Directory System Call 	1
+131	Discuss about the kernel support for files.	5	Files 	0
+132	Define a system call. Explain how the system call differs from that of the library functions.	3	System Call 	0
+133	Differentiate library functions and system calls.	5	System Call 	1
+134	List and explain the various file I/O operations.	5	Files 	2
+135	Write a C program that makes a copy of a file using standard I/O and system calls.	5	Program 	1
+136	Differentiate between the three stat functions with examples.	5	Files 	2
+137	Explain briefly about file and record locking in Linux.	3	Files 	2
+138	Differentiate between advisory locking and mandatory locking.	3	Files 	2
+139	Explain advisory locking and mandatory locking with examples.	5	Files 	1
+140	Explain advisory locking using lockf and flock functions with examples.	5	Files 	1
+141	How to change file permissions in Linux? Explain with relevant examples.	5	Files 	0
+142	Explain the following file ownership system calls with syntax, (a)chown() (b)lchown() (c)fchown().	5	System Call 	0
+143	Explain the following system calls related to linking link(),unlink() and symlink().	5	System Call 	1
+144	Write and explain about hard and symbolic links. Give an example for each.	3	Files 	2
+145	Differentiate between hard link and soft link utilities in files.	5	Utilities 	0
+146	Explain the following system calls with syntax, (a)mkdir() (b)rmdir() (c)chdir() (d)getcwd().	5	System Call 	1
+147	Write a C program to print all the filenames with inode numbers recursively in a directory whose name is given with command line argument using directory system calls.	5	Program 	1
+148	What functions are used to scan the directories contents?	5	Directories 	0
+149	Define a process.	2	Process 	2
+150	What is a process identifier?	2	Process 	2
+151	How a new process can be created?	2	Process 	0
+152	Write briefly about wait() system call?	3	System Call 	1
+153	What is the purpose of exit() function?	2	System Call 	2
+154	Discuss about zombie process.	2	Process 	1
+155	Define signal. Discuss in brief about any one signal.	2	Signals 	2
+156	Write a short notes on alarm() system call.	2	System Call 	0
+157	Write about abort function.	2	System Call 	0
+158	Discuss about sleep() function.	2	System Call 	1
+159	What is the command used to bring a background job into foreground job?	2	Command 	2
+160	What are the signals that are not ignored or blocked? Explain the reason behind it with an example.	2	Signals 	1
+161	What is meant by a process?	3	Process 	0
+162	Explain memory layout of a 'C' program?	5	Program 	1
+163	Explain in detail about environment list.	5	Process 	2
+164	Discuss about environment variables.	5	Process 	1
+165	Discuss about the kernel support for processes.	5	Process 	0
+166	What are process identifiers? Mention the commands for getting different IDs of calling process.	5	Process 	2
+167	Differentiate between real IDs and effective IDs.	5	Process 	1
+168	Explain various job control commands and their options with examples.	5	Process 	2
+169	Write short notes on process control.	5	Process 	1
+170	How to create a new process? Explain in detail about fork() function.	5	Process 	2
+171	Explain the vfork() system call with syntax.	5	System Call 	0
+172	Write the syntax of six versions of exe functions and also explain how the functions differ from each other.	5	Files 	1
+173	What is the need of exec() system call? Write syntax.	5	Files 	1
+174	Write a C program to illustrate exec() function.	5	Files 	2
+175	Write about a function that waits for a process to terminate.	5	Process	1	
+176	Explain the waitpid() system call with syntax.	5	System Call 	2
+177	Write a C program that accepts two numbers as argument and then sums the two numbers in a child process. The sum should be returned by child to the parent as its exit status and the parent should print the sum.	5	Program 	2
+178	What is meant by process termination? Explain the various types of process terminations with suitable examples.	5	Process 	1
+179	Write the system calls for process termination in detail.	5	Process 	2
+180	Explain various exit status with an example program.	5	Program 	1
+181	Write a program that demonstrates the use of exit().	5	Program 	0
+182	What is a zombie process? Illustrate with an example.	5	Process 	1
+183	Write a C program to create a zombie process and print the process details using ps command.	5	Program 	2
+184	What is an orphan process? Write a program to illustrate orphan process.	5	Process 	1
+185	What is an orphan process? How is it implemented in Linux?	5	Program 	0
+186	Write about the following, (a)fork() (b)vfork() (c)wait() (d)waitpid() (e)exec() family.	5	System Call 	1
+187	Explain in detail about process groups.	3	Process 	0
+188	Discuss about sessions.	3	Process 	1
+189	What is a controlling terminal? Explain.	3	Process 	0
+190	Differentiate between threads and processes.	5	Threads 	0
+191	Write about any four "signals".	5	Signals 	2
+192	Write about the "disposition" of the signal.	3	Signals 	2
+193	Illustrate SIGILL and SIGINT with an example program.	5	System Call 	1
+194	What are the phases in signaling process? Explain what is meant by lifetime of a signal?	5	Signals 	0
+195	What is signal handler? Explain how to install a signal handler.	5	Signals 	1
+196	What is meant by reinstalling a signal handler.	5	Signals 	2
+197	Write about signal implementations. Write about "sigpending", "sigsuspend".	5	Signals 	0
+198	Write a C program to print the numbers from 1 to 10 with a time interval of 1 second using alarm and signal system calls.	3	Program 	0
+199	Write a C program to print "hello world" once every second. The program must display "Do Not Disturb" when CTRL+C is pressed for the first 5 times and must exit the program when CTRL+C is pressed for the 6th time.	5	Program 	1
+200	Discuss about the Unix kernel support for signals.	5	Signals 	0
+201	What is signal function? Write and explain about the structure of signal function.	5	Signals 	0
+202	What is meant by unreliable signals? Explain with an example.	5	Signals 	0
+203	What are reliable signals? Explain about 4 primary features of reliable signals.	5	Signals 	2
+204	Explain about the features added to enhance signal reliability.	5	Signals 	1
+205	Write in detail about "reliable signal handling"?	3	Signals 	2
+206	What are reliable signals? Explain about the primary features of reliable functions. Illustrate an example program for handling reliable signals.	5	Signals 	1
+207	Write the syntax of kill() and raise() system calls and explain them briefly.	5	System Call 	2
+208	Write a program which uses both kill and raise functions.	3	Program 	1
+209	Explain the following system calls with syntax, (a)alarm() (b)pause().	5	System Call 	2
+210	Write about abort function. Write a program which uses abort function.	5	Program 	1
+211	What are message queues?	2	Message Queues 	1
+212	What is the purpose of popen() function?	2	Pipes 	2
+213	What are named pipes?	2	Pipes 	1
+214	How are message queues created?	2	Message Queues 	0
+215	What is the purpose of msgctl() system call?	3	Message Queues 	1
+216	How to kill/remove a message queue?	2	Message Queues 	2
+217	Give the structure of kernel data structure for a semaphore set.	3	Semaphores 	2
+218	Differentiate pipes and named pipes.	3	Pipes 	1
+219	What is interprocess communication? With a neat diagram explain IPC between, (a)processes on a single computer (b)processes on different systems.	5	IPC 	2
+220	How are pipes created? Explain the IPC between related processes using named pipes.	5	Pipes 	1
+221	Explain in detail about interprocess communication using named pipes.	5	Pipes 	0
+222	How are FIFOs created? Explain the IPC between unrelated processes using FIFOs.	5	Pipes 	2
+223	Explain "popen" and "pclose" functions.	3	Pipes 	1
+224	Draw and explain about the message queue structures in the kernel.	5	Message Queues 	2
+225	Compare the IPC functionality provided by pipes and message queues. What are the advantages and drawbacks of each? Explain briefly.	5	IPC 	1
+226	Write a program and explain how to transfer a large amount of data between two processes using, (a)pipes (b)message queues.	5	Program 	1
+227	Explain the syntax of msgget() system call.	5	System Call 	0
+228	With an example, explain in detail about the process of writing messages onto a queue.	5	Program 	0
+229	Explain about the following system calls, (a)msgrcv (b)msgctl.	5	System Call 	1
+230	With an example, explain in detail about the, (a)getting message queue status (b)removing message queue.	5	Program 	2
+231	Write a C program to create a message queue with read and write permissions to write 3 messages to it with different priority numbers.	5	Program 	2
+232	Write a C program that receives the messages from the above message queue and display them.	5	Program 	1
+233	Explain how do you multiplex multiple messages onto a single queue.	5	Message Queues 	0
+234	Explain the procedure for writing C programs for any client and server using message queues.	5	Message Queues 	2
+235	What are semaphores? Explain with an example.	5	Semaphores 	0
+236	Explain about the data structures of a semaphore in kernel.	5	Semaphores 	2
+237	Write in detail on kernel data structures for semaphores.	5	Semaphores 	1
+238	Draw and explain about the kernel data structure for a semaphore set.	5	Semaphores 	2
+239	Discuss about Unix system APIs for semaphores.	5	Semaphores 	1
+240	List and explain various Unix system APIs for semaphores.	5	Semaphores 	2
+241	List and explain the various system calls that are associated with semaphores.	5	Semaphores 	1
+242	Explain in detail about file locking with semaphores.	5	Semaphores 	2
+243	Write a program to lock a memory region using semaphore.	5	Program 	1
+244	What is shared memory?	2	Shared Memory 	2
+245	What is the purpose of "shmdt" system call?	2	Shared Memory 	1
+246	What is the purpose of "shmget" system call?	2	Shared Memory 	2
+247	Define sockets.	2	Sockets 	1
+248	Write about bind() system call.	2	System Call 	2
+249	Illustrate the connection-oriented client/server communication.	3	Sockets 	0
+250	How is a socket closed?	2	Sockets 	0
+251	Write about send() system call?	2	System Call 	0
+252	List various IPV socket address.	2	Sockets 	1
+253	Write in detail on kernel data structures for shared memory.	5	Shared Memory 	2
+254	Discuss about the Unix kernel support for shared memory.	5	Shared Memory 	0
+255	What are security problems associated with system IPC mechanisms?	5	IPC 	1
+256	Explain how to control a shared memory segment?	5	Shared Memory 	1
+257	Explain how to attach and detach a shared memory segment.	5	Shared Memory 	2
+258	Explain how to place data in shared memory.	5	Shared Memory 	0
+259	What is the use of destroying a shared memory segment? Explain the process of destroying a shared memory segment.	5	Shared Memory 	1
+260	What is shared memory? What is the importance of it? Explain in detail about the process of allocating a shared memory segment.	5	Shared Memory 	1
+261	Write and explain the client/server application to implement message queues using semaphores and shared memory.	5	Message Queues 	2
+262	Write a client and server program in C using shared memory so that what is written by the client in shared memory is read and printed by the server.	5	Shared Memory 	2
+263	Write a program to create and open a shared memory segment and fill it with a pattern by one process and verify the same data pattern in the shared memory segment by another process. Explain the process.	5	Shared Memory 	1
+264	Explain with a program how to copy file data from server to client using shared memory.	5	Shared Memory 	2
+265	Write a C program to create a shared memory and store username and mobile number details.	5	Program 	1
+266	Write a C program to use the shared memory created by the above program and print the mobile number of a given username by searching the shared memory.	5	Program 	0
+267	Write briefly about sockets.	5	Sockets 	1
+268	Write and explain client-server model.	3	IPC
+269	What do you understand by socket address? Explain how it is used in socket programming with two examples.	5	Sockets 	2
+270	Explain with the help of a flowchart which system calls are necessary for a connectionless and connection-oriented client-server communication.	5	IPC 	1
+271	Explain various socket APIs used for connectionless protocol.	5	Sockets 	0
+272	Describe all the elementary socket functions required to write a complete TCP client and server.	5	Sockets 	1
+273	Explain the following functions, (a)socket() (b)bind() (c)connect().	5	System Call 	2
+274	Write about send and recv system calls.	5	Sockets 	0
+275	Explain how TCP connections are established and terminated.	5	IPC 	1
+276	Write notes on byte ordering functions.	5	Sockets 	0
+277	Write about sendto and recvfrom system calls.	5	Sockets 	2
+278	Explain shutdown system call with syntax.	5	System Call 	1
+279	Write a client/server program for transferring of data, (a)sending (b)receiving.	5	IPC 	1
+280	Write in detail about how client and server programs can be developed in C using UDP based system calls.	5	IPC 	2
+281	Write a complete program (client and server) using connectionless mode to implement echo server.	5	Program 	1
+282	Write an example that includes client side specific options and connect to the server.	5	Program 	1
+283	Write a C program to implement echo server and echo client on port number 1234 using connection-oriented system calls.	5	Program 	0
+284	Write the client server code for Unix domain stream protocol.	5	IPC 	1
+285	Write the client and server code for Unix domain datagram protocol.	5	IPC 	2
+286	Explain setsockopt system call.	5	System Call 	1
+287	Explain the fcntl system call.	5	System Call 	2
+288	Compare IPC mechanisms.	5	IPC 	2
+289	

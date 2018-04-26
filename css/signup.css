@@ -1,0 +1,24 @@
+.signup-container{
+	width:80%;
+	margin: 0 auto;
+}
+.sbtn{
+	width: 100%;
+}
+.pad5{
+	padding-top: 5px;
+}
+.padlr5{
+	padding: 0 5px;
+}
+
+label{
+	font-weight: 600;
+}
+.notification{
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+.red{
+	color: red;
+}

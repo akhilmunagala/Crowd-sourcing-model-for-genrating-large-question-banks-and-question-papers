@@ -1,0 +1,163 @@
+<?php
+
+	session_start();
+	include_once './db.php';
+	$id;
+	if(isset($_SESSION['id'])){
+		$id= $_SESSION['id'];
+	}else{
+		header("Location: ../login.php");
+		exit();
+	}
+
+	$file = '../database/'.$_SESSION['sp'].'/questions.tsv';
+	$handle =  fopen($file, 'a') or die('cannot open file'.$file);
+
+if(isset($_POST['questions'])) {
+	$error = false;
+	$error_string = "";
+	$result = "";
+	//submit 2 marks questions
+	// echo "two marks questions<br><br>";
+	$submitted_by = mysqli_real_escape_string($conn,$id);
+	$marks = 2;
+	for($i = 0; $i <5; $i++){
+		
+		$name = "two".($i+1);
+		//check if inputs are empty
+		if($_POST['questions'][$i] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		if($_POST['keywords'][$i] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		if($_POST[$name] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		
+		$question = mysqli_real_escape_string($conn,$_POST['questions'][$i]);
+		$keyword = mysqli_real_escape_string($conn,$_POST['keywords'][$i]);
+		$difficulty = mysqli_real_escape_string($conn,$_POST[$name]);
+		$subject = mysqli_real_escape_string($conn,$_SESSION['sp']);
+		$sql = "INSERT INTO questions(submitted_by,question,subject,keyword,marks,difficulty) VALUES ('$id','$question','$subject','$keyword','$marks','$difficulty')";
+
+	  	$result = mysqli_query($conn,$sql);
+	  	// if any problem arises then change the if condition to if($result < 0)
+	  	if(!$result){
+	  		$error = true;
+	  		$error_string .= "error while inserting data<br>";
+	  		header("Location: ../submitquestions.php?result=$error_string");
+	  		exit();
+	  	}else{
+	  		$data = $question."\t".$keyword."\t".$marks."\t".$difficulty."\n";
+			fwrite($handle, $data);
+	  	}
+	}
+	//submit 3marks questions
+	// echo "<br><br>three marks questions<br><br>";
+	$i2 =0;
+	$marks = 3;
+	for($i = 5; $i <10; $i++){
+		$name = "three".($i2+1);
+		// echo $_POST['questions'][$i].' '.$_POST['keywords'][$i].' '.$_POST[$name].'<br>';
+		//check if inputs are empty
+		if($_POST['questions'][$i] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		if($_POST['keywords'][$i] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		if($_POST[$name] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		
+		$question = mysqli_real_escape_string($conn,$_POST['questions'][$i]);
+		$keyword = mysqli_real_escape_string($conn,$_POST['keywords'][$i]);
+		$difficulty = mysqli_real_escape_string($conn,$_POST[$name]);
+		$sql = "INSERT INTO questions(submitted_by,question,subject,keyword,marks,difficulty) VALUES ('$id','$question','$subject','$keyword','$marks','$difficulty')";
+		
+	  	$result = mysqli_query($conn,$sql);
+	  	if($result < 0){
+	  		$error = true;
+	  		$error_string .= "error while inserting data<br>";
+	  		header("Location: ../submitquestions.php?result=$error_string");
+	  		exit();
+	  	}else{
+	  		$data = $question."\t".$keyword."\t".$marks."\t".$difficulty."\n";
+			fwrite($handle, $data);
+	  	}
+		$i2++;
+	}
+	//submit 5 marks questions
+	// echo "<br><br>five marks questions<br><br>";
+	$i3 =0;
+	$marks = 5;
+	for($i = 10; $i <20; $i++){
+		$name = "five".($i3+1);
+		// echo $_POST['questions'][$i].' '.$_POST['keywords'][$i].' '.$_POST[$name].'<br>';
+		//check if inputs are empty
+		if($_POST['questions'][$i] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		if($_POST['keywords'][$i] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		if($_POST[$name] == ""){
+			$error = true;
+			$error_string .= "Inputs cannot be empty";
+			header("Location: ../submitquestions.php?result=$error_string");
+			exit();
+		}
+		
+		$question = mysqli_real_escape_string($conn,$_POST['questions'][$i]);
+		$keyword = mysqli_real_escape_string($conn,$_POST['keywords'][$i]);
+		$difficulty = mysqli_real_escape_string($conn,$_POST[$name]);
+		$sql = "INSERT INTO questions(submitted_by,question,subject,keyword,marks,difficulty) VALUES ('$id','$question','$subject','$keyword','$marks','$difficulty')";
+		
+	  	$result = mysqli_query($conn,$sql);
+	  	if($result < 0){
+	  		$error = true;
+	  		$error_string .= "error while inserting data<br>";
+	  		header("Location: ../submitquestions.php?result=$error_string");
+	  		exit();
+	  	}else{
+	  		$data = $question."\t".$keyword."\t".$marks."\t".$difficulty."\n";
+			fwrite($handle, $data);
+	  	}
+		$i3++;
+	}
+	if(!$error){
+		header("Location: ../submitquestions.php?result=success");
+		fclose($handle);
+	}
+
+}else{
+ 	header("Location: ../submitQuestions.php");
+ 	exit();
+ }
+
+?>

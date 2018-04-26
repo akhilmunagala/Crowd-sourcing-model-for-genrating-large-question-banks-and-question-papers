@@ -1,0 +1,20 @@
+What is a regular file?	2	Files 	1.0
+Write about send() system call?	2	 Call 	0.0
+Discuss about zombie process.	2	Process 	1.0
+Write short nodes on sed.	2	SED 	1.0
+List various IPV socket address.	2	Sockets 	1.0
+What is a controlling terminal? Explain.	3	Process 	0.0
+Explain briefly about file and record locking in Linux.	3	Files 	2.0
+Explain the following system calls with syntax, (a)alarm() (b)pause().	5	System Call 	2.0
+How is a socket closed?	2	Sockets 	0.0
+Compare the features of stream-editor with line-editor.	3	Shell 	1.0
+Explain with the help of a flowchart which system calls are necessary for a connectionless and connection-oriented client-server communication.	5	IPC 	1.0
+Write a program that demonstrates the use of exit().	5	Program 	0.0
+What are semaphores? Explain with an example.	5	Semaphores 	0.0
+Explain the following system calls with syntax, (a)mkdir() (b)rmdir() (c)chdir() (d)getcwd().	5	System Call 	1.0
+What is shared memory? What is the importance of it? Explain in detail about the process of allocating a shared memory segment.	5	Shared Memory 	1.0
+Explain the following sed commands, (a)transform (b)read and write file (c)branch (d)hold space (e)quit.	5	Command 	2.0
+Explain about the features added to enhance signal reliability.	5	Signals 	1.0
+Define user-defined function. Explain the procedure to create user-defined functions in awk.	5	AWK 	2.0
+What are message queues?	2	Message Queues 	1.0
+Explain in detail about the Directories.	5	Directories 	2.0

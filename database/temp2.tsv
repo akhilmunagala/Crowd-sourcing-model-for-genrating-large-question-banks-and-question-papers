@@ -1,0 +1,20 @@
+question 1	DISKS	2	0
+question 1	FILES	2	1
+question 1	SHELL	2	1
+question 1	PROGRAM	2	2
+question 1	PROCESS	2	1
+question 1	SHELL	3	0
+question 1	DIRECTORY SYSTEM CALL	3	1
+question 1	THREADS	3	1
+question 1	DIRECTORY SYSTEM CALL	3	2
+question 1	FILE PROGRAM	3	2
+question 1	SIGNALS	5	1
+question 1	SHELL	5	1
+question 1	DISKS	5	0
+question 1	PROGRAM	5	1
+question 1	SIGNALS	5	1
+question 1	THREADS	5	2
+question 1	PIPES	5	2
+question 1	DIRECTORIES	5	1
+question 1	SIGNALS	5	1
+question 1	MESSAGE QUEUES	5	0

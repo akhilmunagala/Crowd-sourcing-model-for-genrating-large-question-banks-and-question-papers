@@ -1,0 +1,37 @@
+.funcs{
+	padding-top: 50px;
+}
+.text{
+	padding-top: 30px;
+}
+.ptitle h1{
+	color: #363636;
+	padding-top: 20px;
+}
+button{
+	background-color: #e9e9e9;
+	box-shadow: 0 0 6px 1px #b8b8b8;
+	margin: 0;
+	border:1px solid #e9e9e9;
+	padding:15px 25px;
+	border-radius: 2px;
+	width: 500px;
+}
+.block p{
+	margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #202020;
+}
+button:hover{
+	transform: none;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+	box-shadow: 0 0 8px 2px #8b8b8b;
+}
+button{
+	margin: 12px;
+}
+.logout{
+	float: right;
+}
